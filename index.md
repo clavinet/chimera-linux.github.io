@@ -39,14 +39,14 @@ it introspectable and so on.
 
 The builds are always containerized, with a minimal Chimera system being
 used as the build environment for every package. This system is sandboxed
-using `bubblewrap` and run completely unprivileged.
+using `bubblewrap` and runs completely unprivileged.
 
 The binary packaging system used is `apk-tools`, originally from Alpine
 Linux. It was chosen because of its speed and ease of integration.
 
 ### Bootstrappable
 
-The system can build itself. You can use any `musl` based distribution
+The system can build itself. You can use any `musl`-based distribution
 as the initial system, as long as it has the few required components
 needed for the system build.
 
